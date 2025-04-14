@@ -51,7 +51,6 @@ if st.button("Predict"):
     else:
         advice = (
             f"The model predicts that your probability of down is {probability:.1f}%. "
-            "However, maintaining a healthy lifestyle is still very important. "
         )
 
     st.write(advice)
